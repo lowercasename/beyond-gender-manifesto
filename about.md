@@ -6,4 +6,4 @@ permalink: "/about/"
 ---
 # Augh.
 
-WHY?
+WHY? Why me?
