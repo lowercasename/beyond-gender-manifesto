@@ -6,4 +6,4 @@ permalink: "/about/"
 ---
 Nope! Absolutely not.
 
-No Way!
+No Way! Nope.
