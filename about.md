@@ -4,6 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-Nope! Absolutely not.
-
-No Way! Nope.
+HAH WHY
