@@ -4,6 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-Last time.
-
-???
+Well thank fuck!
