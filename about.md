@@ -4,4 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-HAH WHY WHY WHY
+Nope nope, _nope_
