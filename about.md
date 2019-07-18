@@ -4,8 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-AUUUUUUUUUGH
-
-Hsdasdasasa.'
-
-asssadasdfsa.
+Nope.
