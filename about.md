@@ -4,4 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-I am still in permissions hell
+I am definitely in permissions hell
