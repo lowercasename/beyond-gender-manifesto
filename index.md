@@ -23,9 +23,3 @@ Version {{version}}.0
 <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/{{ page.order | prepend: '00' | slice: -2, 2 }}.jpg"></div>
     {% endif %}
 {% endfor %}
-
-<div class="manifesto-section centered">
-2019 &middot; [GitHub](https://github.com/lowercasename/beyond-gender-manifesto/) &middot; [Utopian Acts](https://utopia.ac)
-
-Built with [Jekyll](https://jekyllrb.com/) by [Raphael Kabo](https://raphaelkabo.com)
-</div>
