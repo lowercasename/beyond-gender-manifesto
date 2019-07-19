@@ -1,7 +1,8 @@
 ---
 category: manifesto
 layout: default
-order: 1
+order: "1"
+
 ---
 This is what we think of science fiction.
 
@@ -18,3 +19,5 @@ We have looked for SF that is trans-inclusive, that is anti-essentialist, that a
 We have looked for SF that embraces a utopian perspective, that opens up space for radical change.
 
 We have looked for SF that rejects Eurocentrism and moves beyond its own white, western canon.
+
+Test!
