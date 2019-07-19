@@ -11,13 +11,13 @@ a, a:visited, a:active {
     color: pink;
     text-decoration: none;
     padding: 0 4px;
+    border-bottom: 2px solid transparent;
     transition: all 150ms ease-out;
 }
 
 a:hover {
     color: #f2d9dd;
     border-bottom: 2px solid #f2d9dd;
-    /* background: rgba(242,217,221,0.3); */
 }
 
 #particles-js {
