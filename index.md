@@ -2,6 +2,10 @@
 title: Index
 layout: default
 ---
+<div class="manifesto-section">
+<h1>Beyond Gender Manifesto</h1>
+</div>
+
 {% for page in site.pages %}
     {% if page.category == "manifesto" %}
 <div class="manifesto-section">
