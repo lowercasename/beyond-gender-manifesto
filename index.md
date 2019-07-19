@@ -3,10 +3,9 @@ title: My page
 layout: default
 ---
 
-# {{ page.title }}
-
-Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). Plain text format allows you to focus on your **content**.
-
-<!--
-You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
--->
+{% for page in site.pages %}
+    {% if page.category == "manifesto" %}
+<div class="manifesto-section">{{ page.content }}</div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/{{ page.order | prepend: '00' | slice: -2, 2 }}.jpg"></div>
+    {% endif %}
+{% endfor %}
