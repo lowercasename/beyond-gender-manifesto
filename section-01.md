@@ -19,5 +19,3 @@ We have looked for SF that is trans-inclusive, that is anti-essentialist, that a
 We have looked for SF that embraces a utopian perspective, that opens up space for radical change.
 
 We have looked for SF that rejects Eurocentrism and moves beyond its own white, western canon.
-
-Test!
