@@ -1,5 +1,8 @@
 name: Beyond Gender Manifesto
 
+plugins:
+  - jekyll-git_metadata
+
 kramdown:
   parse_block_html: true
   input: GFM

@@ -4,6 +4,7 @@ layout: default
 ---
 <div class="manifesto-section">
 <h1>Beyond Gender Manifesto</h1>
+Version 0.{{site.git.total_commits}}.0
 </div>
 
 {% for page in site.pages %}
