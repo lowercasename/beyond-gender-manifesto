@@ -1,8 +1,8 @@
 ---
-title: My page
+title: Index
 layout: default
----
 
+---
 {% for page in site.pages %}
     {% if page.category == "manifesto" %}
 <div class="manifesto-section">{{ page.content }}</div>
