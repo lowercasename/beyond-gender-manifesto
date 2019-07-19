@@ -7,6 +7,31 @@ body {
   line-height: 1.6;
 }
 
+a, a:visited, a:active {
+    color: pink;
+    text-decoration: none;
+    padding: 0 4px;
+    transition: all 150ms ease-out;
+}
+
+a:hover {
+    color: #f2d9dd;
+    border-bottom: 2px solid #f2d9dd;
+    /* background: rgba(242,217,221,0.3); */
+}
+
+#particles-js {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e0f16;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -9000;
+}
+
 .manifesto-section {
     width: 100%;
     padding: 2rem 2rem;
@@ -23,7 +48,12 @@ body {
     background: transparent;
 }
 
+.centered {
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
 }
 
