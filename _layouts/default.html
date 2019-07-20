@@ -2,9 +2,48 @@
 <html>
     {% include head.html %}
     <body>
-        <div id="particles-js"></div>
         {{ content }}
         {% include footer.html %}
     </body>
-    <script src="{{ "/assets/base.js" | relative_url }}"></script>
+    <script>
+      var app = document.getElementById('intro');
+
+function colorise() {
+  $('#flash').fadeIn(0).fadeOut(500);
+  $('body').css('color','#33ff33');
+}
+
+var typewriter = new Typewriter(app, {
+  loop: false,
+  delay: 75,
+  cursor: '▊'
+});
+
+typewriter
+  .pauseFor(250)
+  .typeString('C:\\ > ')
+  .pauseFor(1000)
+  .typeString('LOAD HARAWAY.EXE\n')
+  .pauseFor(500)
+  .callFunction(colorise)
+  .pauseFor(250)
+  .typeString('<p></p>')
+  .typeString('LOADED.\n')
+  .pauseFor(500)
+  .typeString('<p></p>')
+  .pauseFor(250)
+  .typeString('C:\\ > ')
+  .pauseFor(1000)
+  .typeString('PRINT MANIFESTO.TXT')
+  .pauseFor(250)
+  .typeString('<p></p>')
+  .pauseFor(500)
+  .start();
+$(function() {
+setTimeout(function(){
+  $('#text').slideDown();
+}, 10000);
+});
+
+    </script>
 </html>
