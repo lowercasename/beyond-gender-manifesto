@@ -29,9 +29,4 @@ Version {{version}}.0
     {% endif %}
 {% endfor %}
 
-
-> The impossible attracts me because everything possible has been done and the world didn’t change.
-> 
-> Sun Ra, 1977
-
 </div>

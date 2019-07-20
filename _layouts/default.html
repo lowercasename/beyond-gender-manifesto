@@ -13,8 +13,9 @@ function colorise() {
   $('body').css('color','#33ff33');
 }
 
-function showManifesto() {
+function showManifesto(typewriter) {
     $('#text').slideDown();
+    console.log(typewriter)
 }
 
 var typewriter = new Typewriter(app, {
@@ -22,6 +23,12 @@ var typewriter = new Typewriter(app, {
   delay: 75,
   cursor: '▊'
 });
+
+$('.footer a').hover(function() {
+    $(this).addClass('hover')
+}, function() {
+    $(this).removeClass('hover')
+})
 
 $(function() {
     typewriter
@@ -43,8 +50,8 @@ $(function() {
       .pauseFor(250)
       .typeString('<p></p>')
       .pauseFor(500)
-      .callFunction(showManifesto)
-      .start();
+      .callFunction(showManifesto, typewriter)
+      .start()
 });
 
     </script>
