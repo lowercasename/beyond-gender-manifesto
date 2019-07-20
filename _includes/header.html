@@ -1,0 +1,19 @@
+<div class="manifesto-section">
+<h1>Beyond Gender Manifesto</h1>
+{% if site.git.total_commits > 99 %}
+    {% assign major_version_number = site.git.total_commits | slice:0 %}
+    {% assign minor_version_number = site.git.total_commits | slice:1,2 %}
+{% else %}
+    {% assign major_version_number = "0" %}
+    {% assign minor_version_number = site.git.total_commits %}
+{% endif %}
+<nav class="top-navigation">
+<span class="version">{% assign version = major_version_number | append: "." | append: minor_version_number %}
+Version {{version}}.0</span>
+{% if page.url == "/plain-text.html" %}
+   <a href="/">Go to animated version</a>
+{% else %}
+    <a href="/plain-text">Go to plain text version</a>
+{% endif %}
+</nav>
+</div>

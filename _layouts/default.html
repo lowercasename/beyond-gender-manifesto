@@ -13,36 +13,38 @@ function colorise() {
   $('body').css('color','#33ff33');
 }
 
+function showManifesto() {
+    $('#text').slideDown();
+}
+
 var typewriter = new Typewriter(app, {
   loop: false,
   delay: 75,
   cursor: '▊'
 });
 
-typewriter
-  .pauseFor(250)
-  .typeString('C:\\ > ')
-  .pauseFor(1000)
-  .typeString('LOAD HARAWAY.EXE\n')
-  .pauseFor(500)
-  .callFunction(colorise)
-  .pauseFor(250)
-  .typeString('<p></p>')
-  .typeString('LOADED.\n')
-  .pauseFor(500)
-  .typeString('<p></p>')
-  .pauseFor(250)
-  .typeString('C:\\ > ')
-  .pauseFor(1000)
-  .typeString('PRINT MANIFESTO.TXT')
-  .pauseFor(250)
-  .typeString('<p></p>')
-  .pauseFor(500)
-  .start();
 $(function() {
-setTimeout(function(){
-  $('#text').slideDown();
-}, 10000);
+    typewriter
+      .pauseFor(250)
+      .typeString('C:\\ > ')
+      .pauseFor(1000)
+      .typeString('LOAD HARAWAY.EXE\n')
+      .pauseFor(500)
+      .callFunction(colorise)
+      .pauseFor(250)
+      .typeString('<p></p>')
+      .typeString('LOADED\n')
+      .pauseFor(500)
+      .typeString('<p></p>')
+      .pauseFor(250)
+      .typeString('C:\\ > ')
+      .pauseFor(1000)
+      .typeString('PRINT MANIFESTO.TXT')
+      .pauseFor(250)
+      .typeString('<p></p>')
+      .pauseFor(500)
+      .callFunction(showManifesto)
+      .start();
 });
 
     </script>

@@ -98,14 +98,34 @@ blockquote p:last-child {
   position: fixed;
   z-index: 90000;
   bottom: 0;
-  background: #242f1e;
+  background: url('noise.png');
+  // color: #d7d1b8 !important;
+  // background-color: #565656;
+  // background: #242f1e;
   padding: 0.5rem;
-  border-top: 5px solid #22281f;
-  box-shadow: inset 0 5px 5px #1e221d;
+  // border-top: 5px solid #22281f;
+  // box-shadow: inset 0 5px 5px #1e221d;
+  border-top: 5px solid #d5d1c3;
 }
 
 .footer p {
   margin: 0 !important;
+  color: transparent;
+  background-color: #979282;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.footer a {
+    color: inherit;
+    border: 2px solid #cecab6;
+    border-radius: 4px;
+}
+
+.footer a:hover {
+    border-color: #aeaa97;
 }
 
 #flash {
@@ -344,4 +364,3 @@ h1, h2, h3, h4, h5, h6 {
 .crt {
   animation: textShadow 1.6s infinite;
 }
-
