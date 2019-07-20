@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.glitch{
+h1{
   color:$text;
   position:relative;
   margin:0 auto;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
-.glitch:after{
+h1:after{
   content:attr(data-text);
   position:absolute;
   left:2px;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
-.glitch:before{
+h1:before{
   content:attr(data-text);
   position:absolute;
   left:-2px;
