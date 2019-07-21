@@ -26,7 +26,7 @@ We have looked for SF that rejects Eurocentrism and moves beyond its own white, 
 >
 > Sun Ra
 
-**And we have found wonderful things**, fantastic new worlds, forgotten ways of being. We have found strangenesses that challenge and provoke us and inspire us to transform the cruel fictions of this, the world in which we must live.
+And we have found wonderful things, fantastic new worlds, forgotten ways of being. We have found strangenesses that challenge and provoke us and inspire us to transform the cruel fictions of this, the world in which we must live.
 
 ## But not enough.
 
@@ -62,7 +62,7 @@ We expect SF to establish points of connection with our alien kin.
 
 We expect SF to reveal the wondrous strangeness of the present. We expect a great deal from SF because this is what it is for!
 
-**One impossible calls out to the others**, imagining one another into communities of being.
+One impossible calls out to the others, imagining one another into communities of being.
 
 And, to this end, we expect more funding for writers and academics from minoritized backgrounds; more acknowledgement of the labour that is disproportionately done by those who are least compensated for it; more spaces dedicated to the imagining, sharing and proliferation of this kind of SF.
 

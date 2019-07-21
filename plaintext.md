@@ -1,11 +1,10 @@
 ---
-title: Beyond Gender Manifesto
-layout: default
+title: Beyond Gender Manifesto - Plaintext
+layout: plain
 ---
-<div id="scanlines"></div>
-<div id="display">
-{% include intro.html %}
-<div id="text">
+<!-- <div id="display"> -->
+<!-- {% include intro.html %} -->
+<div id="plain-text">
 <h1 data-text="BEYOND GENDER MANIFESTO">Beyond Gender Manifesto</h1>
 {% if site.git.total_commits > 99 %}
     {% assign major_version_number = site.git.total_commits | slice:0 %}
@@ -26,4 +25,4 @@ Version {{version}}.0
 {% endfor %}
 
 </div>
-</div>
+<!-- </div> -->
