@@ -4,7 +4,7 @@ layout: default
 order: "1"
 
 ---
-This is what we think of science fiction..
+This is what we think of science fiction:
 
 We think that it could do better.
 
@@ -40,10 +40,8 @@ We expect SF to provide us with more than a seat at the table. We expect it to o
 
 We expect the process of writing and reading SF to be transformative.
 
-  
 We expect SF to acknowledge its power, to take responsibility for its potential for violence, for its potential for cruelty.
 
-  
 We expect SF to support us in our efforts to dismantle systems of oppression and exclusion.
 
 We expect SF to offer us more than the possible.
@@ -59,8 +57,6 @@ We expect SF to trouble categorization.
 We expect SF to establish points of connection with our alien kin.
 
 > Because when you’ve achieved one impossible the others come together to be with their brother.
->
->  
 >
 > Sun Ra
 
@@ -83,8 +79,6 @@ This is of course a fiction (it’s silly but it’s still cruel) which risks th
 More is needed than simply the repeated calls for change. Important as they are, such tactics have not moved us far enough.
 
 > Rather than channeling political energy into the operations of government—prefigurative politics meant acting as if the world sought, or some aspect of it, was already in place.
->
->  
 >
 > Davina Cooper
 
@@ -110,7 +104,6 @@ We are more than speculations; but we also engage in speculations that the patri
 
 > Caring for myself is not self- indulgence, it is self-preservation, and that is an act of political warfare.
 >
->    
 > Audre Lorde
 
 Caring for each other is not a loss of the self but a self-fulfillment, and that is an act of political warfare which we demand science fiction equip us to undertake.
