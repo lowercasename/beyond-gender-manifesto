@@ -2,29 +2,55 @@
 <html>
     {% include head.html %}
     <body>
-        {{ content }}
-        {% include footer.html %}
+        <div id="case">
+            <div id="border">
+                {{ content }}
+            </div>
+            {% include footer.html %}
+        </div>
     </body>
     <script>
-      var app = document.getElementById('intro');
+var app = document.getElementById('intro');
 
 function colorise() {
   $('#flash').fadeIn(0).fadeOut(500);
   $('body').css('color','#33ff33');
 }
 
-function showManifesto(typewriter) {
-    $('#text').slideDown();
-    console.log(typewriter)
+function showManifesto() {
+    $('#text').slideDown('slow');
 }
 
-var typewriter = new Typewriter(app, {
-  loop: false,
-  delay: 75,
-  cursor: '▊'
-});
+// typewriter = new Typewriter(app, {
+//   loop: false,
+//   delay: 0,
+//   cursor: '▊'
+// });
+//
+// typewriter
+//   .pauseFor(250)
+//   .typeString('C:\\ > ')
+//   .pauseFor(1000)
+//   .typeString('LOAD HARAWAY.EXE\n')
+//   .pauseFor(500)
+//   .callFunction(colorise)
+//   .pauseFor(250)
+//   .typeString('<p></p>')
+//   .typeString('LOADED\n')
+//   .pauseFor(500)
+//   .typeString('<p></p>')
+//   .pauseFor(250)
+//   .typeString('C:\\ > ')
+//   .pauseFor(1000)
+//   .typeString('PRINT MANIFESTO.TXT')
+//   .pauseFor(250)
+//   .typeString('<p></p>')
+//   .pauseFor(500)
+//   .callFunction(showManifesto, typewriter)
+//   .start()
 
-$('.footer a').hover(function() {
+
+$('#footer a').hover(function() {
     $(this).addClass('hover')
 }, function() {
     $(this).removeClass('hover')
@@ -32,31 +58,12 @@ $('.footer a').hover(function() {
 
 $(function() {
 
-    $('h1').each(function() {
+    showManifesto()
+    $('h1, h2').each(function() {
         $(this).attr('data-text',$(this).text())
     })
 
-    typewriter
-      .pauseFor(250)
-      .typeString('C:\\ > ')
-      .pauseFor(1000)
-      .typeString('LOAD HARAWAY.EXE\n')
-      .pauseFor(500)
-      .callFunction(colorise)
-      .pauseFor(250)
-      .typeString('<p></p>')
-      .typeString('LOADED\n')
-      .pauseFor(500)
-      .typeString('<p></p>')
-      .pauseFor(250)
-      .typeString('C:\\ > ')
-      .pauseFor(1000)
-      .typeString('PRINT MANIFESTO.TXT')
-      .pauseFor(250)
-      .typeString('<p></p>')
-      .pauseFor(500)
-      .callFunction(showManifesto, typewriter)
-      .start()
+
 });
 
     </script>

@@ -1,9 +1,13 @@
 ---
-title: Index
+title: Console
 layout: default
 ---
-<div class="manifesto-section">
-<h1>Beyond Gender Manifesto</h1>
+<div id="flash"></div>
+<div id="scanlines"></div>
+<div id="display">
+{% include intro.html %}
+<div id="text">
+<h1 data-text="BEYOND GENDER MANIFESTO">Beyond Gender Manifesto</h1>
 {% if site.git.total_commits > 99 %}
     {% assign major_version_number = site.git.total_commits | slice:0 %}
     {% assign minor_version_number = site.git.total_commits | slice:1,2 %}
@@ -13,13 +17,14 @@ layout: default
 {% endif %}
 {% assign version = major_version_number | append: "." | append: minor_version_number %}
 Version {{version}}.0
-</div>
+
+<hr>
 
 {% for page in site.pages %}
-    {% if page.category == "manifesto" %}
-<div class="manifesto-section">
+{% if page.category == "manifesto" %}
 {{ page.content }}
-</div>
-<div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/{{ page.order | prepend: '00' | slice: -2, 2 }}.jpg"></div>
-    {% endif %}
+{% endif %}
 {% endfor %}
+
+</div>
+</div>
