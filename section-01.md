@@ -8,7 +8,7 @@ This is what we think of science fiction:
 
 We think that it could do better.
 
-# We have looked...
+## We have looked...
 
 We have looked to SF for new ways of thinking and feeling about gender.
 
@@ -28,7 +28,7 @@ We have looked for SF that rejects Eurocentrism and moves beyond its own white, 
 
 **And we have found wonderful things**, fantastic new worlds, forgotten ways of being. We have found strangenesses that challenge and provoke us and inspire us to transform the cruel fictions of this, the world in which we must live.
 
-# But not enough.
+## But not enough.
 
 Nor prominently enough, not unapologetically enough.
 
@@ -66,7 +66,7 @@ We expect SF to reveal the wondrous strangeness of the present. We expect a grea
 
 And, to this end, we expect more funding for writers and academics from minoritized backgrounds; more acknowledgement of the labour that is disproportionately done by those who are least compensated for it; more spaces dedicated to the imagining, sharing and proliferation of this kind of SF.
 
-# It is not a mystery why SF has failed us in this catastrophic way.
+## It is not a mystery why SF has failed us in this catastrophic way.
 
 The white capitalist queerphobic patriarchy is heavily invested in making sure its cruel fictions are not thought otherwise; making sure that SF writers don’t reveal to their readers how strange everything is, in this, and in other possible worlds.
 
@@ -74,7 +74,7 @@ SF has been historically dominated by the “universal”; the cis white male mi
 
 This is of course a fiction (it’s silly but it’s still cruel) which risks the elision and is disturbed by the ghosts of our forebears. However, the image remains.
 
-# How do we move beyond?
+## How do we move beyond?
 
 More is needed than simply the repeated calls for change. Important as they are, such tactics have not moved us far enough.
 
@@ -86,7 +86,7 @@ Instead, we should pay attention to the material production of SF. And so, a new
 
 These are our questions, these our expectations. We work to see them answered, to see them met, to move beyond them into the realms of impossibility.
 
-# The binary must be tripped into the quantum.
+## The binary must be tripped into the quantum.
 
 For us, gender is a technology, aslant; reoriented to an expansive otherwise, rather than a regulating known.
 
@@ -98,7 +98,7 @@ In a utopian mode, our move beyond gender is an efflorescence, hyperlinking to w
 
 We believe that SF, as key means for the fictioning of the otherwise, has an ethical obligation to disrupt the prevailing logics a suffocating now, to instead envision and bring about emancipatory futures, futures which multiply, rather than reduce, our ways of being in (and beyond) the world(s).
 
-# Science fiction can turn the actuarial gaze of capitalistic control back upon itself.
+## Science fiction can turn the actuarial gaze of capitalistic control back upon itself.
 
 We are more than speculations; but we also engage in speculations that the patriarchy can never dream of.
 
