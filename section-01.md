@@ -78,7 +78,7 @@ This is of course a fiction (it’s silly but it’s still cruel) which risks th
 
 More is needed than simply the repeated calls for change. Important as they are, such tactics have not moved us far enough.
 
-> Rather than channeling political energy into the operations of government—prefigurative politics meant acting as if the world sought, or some aspect of it, was already in place.
+> Rather than channeling political energy into the operations of government — prefigurative politics meant acting as if the world sought, or some aspect of it, was already in place.
 >
 > Davina Cooper
 
