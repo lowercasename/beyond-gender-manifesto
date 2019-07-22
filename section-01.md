@@ -26,7 +26,7 @@ We have looked for SF that rejects Eurocentrism and moves beyond its own white, 
 >
 > Sun Ra
 
-And we have found wonderful things, fantastic new worlds, forgotten ways of being. We have found strangenesses that challenge and provoke us and inspire us to transform the cruel fictions of this, the world in which we must live.
+And we have found wonderful things, fantastic new worlds, forgotten ways of being. We have found strangenesses that challenge and provoke us and inspire us to transform what Wendy Trevino has called the "cruel fictions" of this, the world in which we must live.
 
 ## But not enough.
 
@@ -34,7 +34,9 @@ Nor prominently enough, not unapologetically enough.
 
 Always, as James Tiptree Jr. might put it, only “in the chinks of the world machine”.
 
-We are continually disappointed in the quantity of SF which recreates the dominant ideological conditions which oppress and constrain its readers. This is what we expect from science fiction.
+We are continually disappointed in the quantity of SF which recreates the dominant ideological conditions which oppress and constrain its readers. 
+
+This is what we expect from science fiction.
 
 We expect SF to provide us with more than a seat at the table. We expect it to overturn the table, to transform it into a barricade, to set the table on fire. We expect SF to challenge us, to shake loose possibility, to construct new worlds.
 
@@ -72,7 +74,7 @@ The white capitalist queerphobic patriarchy is heavily invested in making sure i
 
 SF has been historically dominated by the “universal”; the cis white male middle- class; chiseled white jaws above the collar of his space suit; birds nest hair topping white face, whiter scientist’s coat. The adventurer of colonial fiction in other garb.
 
-This is of course a fiction (it’s silly but it’s still cruel) which risks the elision and is disturbed by the ghosts of our forebears. However, the image remains.
+The ubiquity of this image is of course a fiction (it’s silly but it’s still cruel). Focusing solely upon it risks the elision of our forebears: the feminist visionaries who came before. However, the image remains.
 
 ## How do we move beyond?
 
@@ -96,7 +98,7 @@ Rather than imposing a rigidified order of power relations, gender as routed thr
 
 In a utopian mode, our move beyond gender is an efflorescence, hyperlinking to ways of being together.
 
-We believe that SF, as key means for the fictioning of the otherwise, has an ethical obligation to disrupt the prevailing logics a suffocating now, to instead envision and bring about emancipatory futures, futures which multiply, rather than reduce, our ways of being in (and beyond) the world(s).
+We believe that SF, as key means for the fictioning of the otherwise, has an ethical obligation to disrupt the prevailing logics of a suffocating now, to instead envision and bring about emancipatory futures, futures which multiply, rather than reduce, our ways of being in (and beyond) the world(s).
 
 ## Science fiction can turn the actuarial gaze of capitalistic control back upon itself.
 
