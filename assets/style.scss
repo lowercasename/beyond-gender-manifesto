@@ -5,12 +5,13 @@ $bg: #202039;
 $red: #ff6778;
 $green: #00ff66;
 $blue: #1122ff;
+$white: #ccc;
 $text: $green;
 
 body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-family: 'Share Tech Mono', sans-serif;
-  color: $text;
+  color: $white;
   font-size: 18px;
   line-height: 1.6;
   font-weight: 400;
@@ -85,8 +86,23 @@ a:hover {
     // border-bottom: 2px solid #f2d9dd;
 }
 
+.caret {
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+    text-shadow: none;
+  }
+  50% {
+    color: inherit;
+  }
+}
+
 #text {
   margin-top: 1rem;
+  display: none;
 }
 
 #display *::selection {
@@ -141,7 +157,7 @@ blockquote p:last-child {
     margin-right: 20px;
 }
 
-#footer, #footer a {
+#footer .row, #footer a {
   color: transparent;
   background-color: #71685a;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);

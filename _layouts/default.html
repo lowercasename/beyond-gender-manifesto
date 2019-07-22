@@ -17,9 +17,31 @@ function colorise() {
   $('body').css('color','#33ff33');
 }
 
-function showManifesto() {
+
+var typewriter = require('typewriter');
+var twSpan = document.getElementById('intro');
+
+var tw = typewriter(twSpan).withAccuracy(100) // an integer between 0 and 100 (100 means no typos)
+                                     .withMinimumSpeed(15) // minimum typing speed (characters per second)
+                                     .withMaximumSpeed(20) // maximum typing speed
+                                     .build();
+
+tw.clear() // clear targetDomElement
+  .put('C:\\ > ') // instantly put '$ ' in targetDomElement
+  .waitRange(1000, 2000) // wait randomly between 1000ms and 2000ms
+  .type('LOAD HARAWAY.EXE') // type 'whoami'
+  .put('<br/>') // yes, you can put html tags in targetDomElement
+  .wait(500) // wait for 2000ms
+  .put('LOADED', function () {
+    $('body').css('color','#33ff33');
+  })
+  .put('<br/>') // will be executed after 1
+  .waitRange(500, 1000)
+  .put('C:\\ > ')
+  .waitRange(1000, 2000)
+  .type('PRINT MANIFESTO.TXT', function () {
     $('#text').slideDown('slow');
-}
+  });
 
 // typewriter = new Typewriter(app, {
 //   loop: false,
@@ -57,8 +79,6 @@ $('#footer a').hover(function() {
 })
 
 $(function() {
-
-    showManifesto()
     $('h1, h2').each(function() {
         $(this).attr('data-text',$(this).text())
     })
